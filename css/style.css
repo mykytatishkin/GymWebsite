@@ -3,6 +3,7 @@ body {
     background-color: #222;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
+    box-sizing: border-box;
 }
 
 .container {
@@ -91,8 +92,8 @@ nav a:hover::before{
 }
 
 img {
-    border-radius: 24px;
+    border-radius: 100%;
     margin: auto;
-    border: 3px solid cornflowerblue;
+    border: 3px solid #fff100;
     padding: 1px 1px;
 }
