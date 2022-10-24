@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link href="https://fonts.google.com/css?family=Work+Sans">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <title>Damir Gym System</title>
 </head>
-<body>
 
-    <header>
-        <div class="container">
-            <p class="logo"><b>Damir Gym System</b></h1>
-            
-            <nav>
-                <ul>
-                    <li><a active href="index.html">Home page</a></li>
-                    <li><a href="training_schedule.html">Training Schedule</a></li>
-                    <li><a href="training_plan.html">Training Plan</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <div class="content-block">
-        <h1 class="title">This is universal gym program for beginners, intermediate and advanced athletes</h1>
-        <div class="content-text">
-            <p>
-                It is all based on my 5 years of experience during which I was finding for the most effective exercises as well as their combination and training of certain muscle groups together.
-                <br><br> I started from simple bars inside my yard and I can not do even 1 pull-up 
-            </p>
-        </div>
-        <div class="content-image">
-            <img class="content-image" width="50%" height="50%" src="assets/logo.png" alt="gym-image">
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="header_body">
+                    <div>
+                        <a href="assets/logo.png" class="header_logo">
+                        </a>
+                    </div>
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+                    <nav class="header_menu"">
+                    <ul class=" header_list">
+                        <li><a active href="index.html" class="header_link">Home page</a></li>
+                        <li><a href="training_schedule.html" class="header_link">Training Schedule</a></li>
+                        <li><a href="training_plan.html" class="header_link">Training Plan</a></li>
+                        <li><a href="contact.html" class="header_link">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">This is universal gym program for beginners, intermediate and advanced athletes</h1>
+            <div class="content-text">
+                <p>
+                    It is all based on my 5 years of experience during which I was finding for the most effective
+                    exercises
+                    as well as their combination and training of certain muscle groups together.
+                    <br><br> I started from simple bars inside my yard and I can not do even 1 pull-up
+                </p>
+            </div>
+            <div class="content-image">
+                <img class="content-image" width="50%" height="50%" src="assets/logo.png" alt="gym-image">
+            </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="/js/script.js"></script>
 </body>
+
 </html>
