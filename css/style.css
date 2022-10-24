@@ -86,6 +86,8 @@ nav a:hover::before{
     padding: 7px 30px 7px 30px;
     color:white;
     overflow-x:auto;
+    justify-content: center;
+
 }
 
 .content-image{
