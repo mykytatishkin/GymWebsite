@@ -1,3 +1,7 @@
+* {
+  transition: all .4s ease-in-out;
+}
+
 body {
     padding: 0;
     border: 0;
@@ -8,9 +12,6 @@ body {
     box-sizing: border-box;
     color: #fff;
 }
-
-
-
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -49,7 +50,7 @@ body {
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color: cornflowerblue;
+    background-color: #378bff;
     color: white;
   }
 
