@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.google.com/css?family=Work+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <title>Damir Gym System</title>
 </head>
+
 <body>
 
-    <header>
-        <div class="container">
-            <p class="logo"><b>Damir Gym System</b></h1>
-            
-            <nav>
-                <ul>
-                    <li><a active href="index.html">Home page</a></li>
-                    <li><a href="training_schedule.html">Training Schedule</a></li>
-                    <li><a href="training_plan.html">Training Plan</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+    <div class="topnav">
+        <a href="index.html" class="active">Damir Gym System</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="training_plan.html">Training Plan</a>
+            <a href="training_schedule.html">Training Schedule</a>
+            <a href="contact.html">Contacts</a>
         </div>
-    </header>
-    
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
     <div class="content-block">
         <h1 style="text-align: center;" class="title">Damir contacts</h1>
         <div class="content-text">
             <p style="text-align: center; color: #fff100">
-              Mobile: +37060228714 <br>    
-              Telegram: +37060228714 <br>
-              Instagram: @_arashikage
+                Mobile: +37060228714 <br>
+                Telegram: +37060228714 <br>
+                Instagram: @_arashikage
             </p>
         </div>
         <div class="content-image">
-            <img style="max-width: 50%;" class="content-image" width="50%" height="50%" src="assets/logo.png" alt="gym-image">
+            <img style="max-width: 50%;" class="content-image" width="50%" height="50%" src="assets/Damir.jpg"
+                alt="gym-image">
         </div>
     </div>
-
+    <script src="/js/script.js"></script>
 </body>
+
 </html>

@@ -6,68 +6,52 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     box-sizing: border-box;
+    color: #fff;
 }
 
-.wrapper {}
 
-.container {
-    width: 1180px;
-    margin: 0px auto;
-    padding: 0px 10px;
+
+/* Style the navigation menu */
+.topnav {
     overflow: hidden;
-}
-
-.header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 50;
-}
-
-.header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff100;
-}
-
-.header_body {
+    background-color: #333;
     position: relative;
-    z-index: 2;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
-}
- 
-.header_logo {
-    flex: 0 0 60px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-.header_logo img {
-    max-width: 100%;
-    display: block;
-}
-.header_burger {}
-.header_menu {}
-.header_list {
-    display: flex;
-}
-.header_list li {
-    list-style: none;
-    margin: 0px 0px 0px 20px;
-}
-.header_link {
-    color: black;
-    text-transform: uppercase;
-    font-size: 18px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
     text-decoration: none;
-}
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: cornflowerblue;
+    color: white;
+  }
 
 .title {
     text-align: justify;
@@ -75,7 +59,7 @@ body {
 }
 
 .content {
-    padding: 100px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
 }
 .content-text {
     font-size: 18px;

@@ -7,36 +7,27 @@
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.google.com/css?family=Work+Sans">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <title>Damir Gym System</title>
 </head>
 
 <body>
-    <div class="wrapper">
 
-        <header class="header">
-            <div class="container">
-                <div class="header_body">
-                    <div>
-                        <a href="assets/logo.png" class="header_logo">
-                        </a>
-                    </div>
-                    <div class="header_burger">
-                        <span></span>
-                    </div>
-                    <nav class="header_menu"">
-                    <ul class=" header_list">
-                        <li><a active href="index.html" class="header_link">Home page</a></li>
-                        <li><a href="training_schedule.html" class="header_link">Training Schedule</a></li>
-                        <li><a href="training_plan.html" class="header_link">Training Plan</a></li>
-                        <li><a href="contact.html" class="header_link">Contact</a></li>
-                        </ul>
-                    </nav>
-
-                </div>
-            </div>
-        </header>
+    <div class="topnav">
+        <a href="index.html" class="active">Damir Gym System</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="training_plan.html">Training Plan</a>
+            <a href="training_schedule.html">Training Schedule</a>
+            <a href="contact.html">Contacts</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+
     <div class="container">
         <div class="content">
             <h1 class="title">This is universal gym program for beginners, intermediate and advanced athletes</h1>
@@ -54,7 +45,6 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="/js/script.js"></script>
 </body>
 
